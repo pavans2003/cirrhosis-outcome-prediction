@@ -9,15 +9,6 @@ Multi-class classification pipeline predicting patient outcomes (C / CL / D) usi
 - **Validation**: 5-fold stratified CV; metric = multi-class log loss
 - **Inference**: Serialisable pipeline — consistent transforms from training through test, ready for REST API integration
 
-## Folder Structure
-cirrhosis-outcome-prediction/
-├── README.md
-├── notebook/
-│   └── Multi-Class_Patient_Outcome_Prediction_for_Cirrhosis.ipynb
-├── outputs/
-│   └── submission.csv
-└── requirements.txt
-
 ## Tech Stack
 Python · XGBoost · Scikit-Learn · Pandas · NumPy
 
